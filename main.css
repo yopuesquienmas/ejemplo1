@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(37, 192, 206);
+}
+header, .main, footer {
+    /* background-color: black; */
+    width:90%;
+    max-width:1000px;
+    margin:20px auto;
+}
+header nav{
+ background-color: yellow;
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float:left;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display:block;
+    color: dimgray
+    text-decoration: none;
+}
+header nav ul li a:hover{
+ background-color: dimgrey
+}
+.main, .articuls{
+    width:68.5%;
+    float:left;
+    margin-right: 1.5%;
+    background:color red;
+}
+aside{
+    width:30%;
+    background-color:aqua; 
+    float:left;
+    padding: 20px;
+    box-sizing: border-box
+}
+.main,.articuls article{
+    padding:20px;
+    background: white;
+    margin-bottom: 20px;
+}
+footer{
+    background: black;
+    color: red;
+    clear:both;
+    padding:10px 2px;
+    text-align: center;
+}
